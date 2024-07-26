@@ -1,0 +1,614 @@
+.login_body {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 30px;
+}
+
+.box_1_login {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login1_img {
+    width: 650px;
+    height: 600px;
+}
+
+.box_2_login {
+    width: 50%;
+    padding: 0px 10px 0px 50px;
+}
+
+.login_body {
+    display: flex;
+    flex-direction: row;
+}
+
+.login_img {
+    margin-top: 50px;
+    width: 500px;
+    height: 550px;
+}
+
+.box_2_login {
+    width: 600px;
+    max-width: 600px;
+    min-width: 300px !important;
+}
+
+.frame_login {
+    width: 70px;
+}
+
+.todo_text_login {
+    font-size: 40px;
+}
+
+.title_container_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_login {
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.form_login {
+    gap: 2px;
+}
+
+.field_height_login {
+    height: 45px;
+}
+.password_icon_login{
+    top: 60%;
+    right: 3%;
+}
+.link_color_login{
+    color:  #ff9d98;
+}
+.remember_me_login {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.forget_password_login {
+    font-size: 15px;
+    color: #ff9d98;
+}
+.checkbox_login_login {
+    width: 10px;
+}
+.submit_btn_login{
+    background-color: #ff9d98;
+}
+.or_container_login {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.or_text_login {
+    margin: 0;
+}
+
+.dont_container_login {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.checkbox_login_login {
+    width: 20px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 1362px) {
+    .box_2_login {
+        width: 50%;
+        padding: 90px 8% 100px 70px;
+    }
+
+    .frame_login {
+        width: 60px;
+    }
+
+    .todo_text_login {
+        font-size: 35px;
+    }
+
+    .title_login {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .field_height_login {
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1140px) {
+    .box_2_login {
+        width: 50%;
+        padding: 90px 5% 100px 30px;
+    }
+
+    .frame_login {
+        width: 50px;
+    }
+
+    .todo_text_login {
+        font-size: 30px;
+    }
+
+    .title_login {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .remember_me_login {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .or_text_login {
+        margin: 0;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .box_2_login {
+        width: 50%;
+        padding: 90px 3% 100px 20px;
+    }
+
+    .field_height_login {
+        height: 35px;
+        margin-bottom: 5px;
+    }
+
+    .frame_login {
+        width: 50px;
+    }
+
+    .todo_text_login {
+        font-size: 30px;
+    }
+
+    .title_login {
+        font-size: 35px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .remember_me_login {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+
+    .checkbox_login_login {
+        width: 18px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .box_2_login {
+        width: 50%;
+        padding: 90px 2% 100px 10px;
+    }
+
+    .frame_login {
+        width: 40px;
+    }
+
+    .todo_text_login {
+        font-size: 25px;
+    }
+
+    .title_login {
+        font-size: 35px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .checkbox_login_login {
+        width: 16px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box_1_login {
+        display: none;
+    }
+
+    .login_body {
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    .box_2_login {
+        width: 50%;
+        padding: 90px 0% 100px 0px;
+    }
+
+    .remember_me_login {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .checkbox_login_login {
+        width: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .todo_text_login {
+        font-size: 25px;
+    }
+
+    .title_login {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .form_login {
+        gap: 5px;
+    }
+
+    .forget_password_login {
+        font-size: 12px;
+    }
+
+    .remember_me_login {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    .checkbox_login_login {
+        width: 5px;
+    }
+
+    .dont_container {
+        font-size: 12px;
+    }
+
+    .box_2_login {
+        width: 50%;
+        padding: 90px 2% 100px 10px;
+    }
+
+    .frame_login {
+        width: 40px;
+    }
+
+    .checkbox_login_login {
+        width: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    
+    .todo_text_login {
+        font-size: 25px;
+    }
+
+    .title_login {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .forget_password_login {
+        font-size: 12px;
+    }
+
+    .remember_me_login {
+        font-size: 12px;
+    }
+
+    .checkbox_login_login {
+        width: 5px;
+    }
+
+    .dont_container {
+        font-size: 12px;
+    }
+
+    .remember_me_login {
+        font-size: 11px;
+        margin-top: 7px;
+    }
+
+    .box_2_login {
+        width: 50%;
+        padding: 90px 2% 100px 10px;
+    }
+
+    .frame_login {
+        width: 40px;
+    }
+
+    .dont_container {
+        font-size: 12px;
+    }
+
+    .checkbox_login_login {
+        width: 10px;
+        margin-top: 3px;
+    }
+
+    .form_login {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    .login_img {
+        min-width: 315px;
+        height: 300px;
+    }
+}
+/* .login_img{
+    margin-top: 50px;
+    width: 500px;
+    height: 550px;
+}
+.box_2_login{
+    width: 600px;
+    max-width: 600px;
+    min-width: 300px!important;
+}
+.frame_login{
+    width: 70px;
+}
+.todo_text_login{
+    font-size: 40px;
+}
+.title_container_login{
+    display: flex;
+    flex-direction: column;
+}
+.title_login{
+    font-size: 60px;
+    margin: 0;
+}
+.form_field{
+    width:100%;
+}
+.remember_me_login{
+ font-size: 15px;
+ margin-top: 6px;
+}  
+.forget_password_login{
+    font-size: 15px;
+}
+.checkbox_login_login{
+    width: 10px;
+}
+.or_container_login{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.or_text_login{
+    margin: 0;
+}
+.dont_container{
+    font-size: 14px;
+}
+@media screen and (max-width: 1230px){
+    .login_img{
+    display:none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .login_img{
+        width: 315px;
+    height: 300px;
+    }
+    .frame_login{
+        width: 60px;
+    }
+    .todo_text_login{
+        font-size: 30px;
+    }
+    .title_login{
+        font-size: 38px;
+        margin: 0;
+    }
+    .form_field{
+        min-width: 250px;
+    }
+    .forget_password_login{
+        font-size: 12px;
+    }
+    .checkbox_login_login{
+        width: 5px;
+    }
+    .remember_me_login{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    
+@media screen and (max-width: 410px) {
+    .title_login{
+        font-size: 34px;
+        margin: 0;
+    }
+    .forget_password_login{
+        font-size: 12px;
+    }
+    .remember_me_login{
+        font-size: 12px;
+    }
+    .checkbox_login_login{
+        width: 5px;
+    }
+    .dont_container{
+        font-size: 12px;
+    }
+}
+}
+@media screen and (max-width: 150px) {
+    .login_img{
+        min-width: 315px;
+    height: 300px;
+    }  
+}
+
+.body_login {
+    width: 100vw;
+      min-height: 100vh;
+      background-color: #191619;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      font-family: 'DM Sans', sans-serif;
+      padding: 3%;
+  }
+
+  .box-1 {
+      margin-bottom: 50px
+  }
+
+  .img_login {
+      width: 500px;
+      height: 650px;
+  }
+
+  .box-2 {
+      margin-top: 5%;
+      max-width: 25%;
+      height: 760px;
+  }
+
+  .heading {
+      display: flex;
+      justify-content: flex-start;
+
+  }
+
+  .heading-text {
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      margin: 5px 0px 0px 10px;
+      font-family: 'DM Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-2 {
+      color: rgb(255, 255, 255);
+      font-size: 45px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 100;
+  }
+
+  .form_login {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .label_login {
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .input-container_login {
+      position: relative;
+  }
+
+  .password_icon_login_login {
+      position: absolute;
+      top: 40%;
+      right: 10px;
+      transform: translateY(-50%);
+  }
+
+  .input_login {
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      background-color: #191619;
+      border: 1px solid #393939;
+      padding: 16px 12px 16px 12px;
+      Width: 100%;
+      Height: 40px;
+      color: #191619(0, 0, 0);
+      padding-left: 30px;
+  }
+
+  .check_container_login {
+      justify-content: space-between;
+  }
+
+  .left_check_login {
+      gap: 2;
+  }
+
+  .checkbox_login_login {
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      --borderColor: #48c;
+      --borderWidth: .125em;
+      cursor: pointer
+  }
+
+  .forgetPassword_login {}
+
+  .password_text_color {
+      color: #ffffff;
+  }
+
+  .password_text_color :hover {
+      color: black;
+  }
+
+  .button_login {
+      width: 100%;
+      height: 40px;
+      background-color: #FF9D98;
+      border: none;
+  }
+
+  .or_text_login_login {
+      justify-content: center;
+  }
+
+  .google_container_login {
+
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 40px;
+      background-color: #191619;
+      color: #ffffff;
+      border: 1px solid #393939;
+      align-items: center;
+  }
+
+  .google_icon_login {
+      margin-right: 10px;
+  }
+
+  .createAcount_container_login {}
+
+  @media screen and (max-width: 1055px) {
+      .body_login {
+          flex-direction: column;
+      }
+  } */

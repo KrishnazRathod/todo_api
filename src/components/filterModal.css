@@ -1,0 +1,192 @@
+.filtermodal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.filtermodal-content {
+  background: #212121;
+  padding: 10px 5px 30px 30px;
+  max-width: 600px;
+  height: 380px;
+  width: 100%;
+  text-align: center;
+}
+
+.close_filtermodal {
+  justify-content: space-between;
+}
+
+.close_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.filtertitle {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.input_filtermodal {
+
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.filtermodal_text {
+  align-self: self-start;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.footer_filtermodal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.priority_container {
+  background-color: #393939;
+  color: #ffffff;
+  width: 100%;
+  width: 120px;
+  height: 35px;
+  border: none;
+  padding: 0px 0px 0px 5px;
+}
+
+.editdate_select {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  width: 120px;
+}
+
+.priority_colorr {
+  gap: 7px;
+  padding-bottom: 5px;
+}
+
+.color_1 {
+  margin-top: 7px;
+}
+
+.filterpriority_select {
+  width: 100%;
+  color: black;
+  gap: 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.filterpriority_buttonall {
+  width: 20%;
+  background-color: transparent;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid white;
+  color: black;
+  background-color: #FFEDF1;
+}
+
+
+
+.filterpriority_button1 {
+  width: 20%;
+  background-color: transparent;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+.filterpriority_button1:hover {
+  width: 20%;
+  height: 40px;
+  padding-top: 10px;
+  color: black;
+  border: 1px solid white;
+}
+
+.filterpriority_button2 {
+  width: 20%;
+  background-color: transparent;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid;
+  border: 1px solid white;
+  color: white;
+}
+
+.filterpriority_button2:hover {
+  width: 20%;
+  height: 40px;
+  padding-top: 10px;
+  color: black;
+  border: 1px solid white;
+}
+
+
+.filterpriority_button3 {
+  width: 20%;
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid;
+  padding-top: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+.filterpriority_button3:hover {
+  width: 20%;
+  height: 40px;
+  padding-top: 10px;
+  color: black;
+  border: 1px solid white;
+}
+
+.filterpriority_button4 {
+  width: 20%;
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid;
+  padding-top: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+.filterpriority_button4:hover {
+  width: 20%;
+  height: 40px;
+  padding-top: 10px;
+  color: black;
+  border: 1px solid white;
+}
+
+.filterdate_text {
+  font-size: 20px;
+  opacity: 70%;
+}
+
+.send_filterbutton {
+  background-color: #FF9D98;
+  width: 120px;
+  height: 45px;
+  color: black;
+  padding: 12px 12px 12px 35px;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
